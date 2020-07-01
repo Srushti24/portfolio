@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
+
+    <!-- Put here your site title -->
+    <title>Srushti Arjun Desai | Developer</title>
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[username], [name], skill" />
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="[Your name here] | Developer" />
+
+    <!-- Required librarys -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: false });
+    </script>
+
+    <!-- Remove this script once you setup your custom portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <!-- Follow the HTML instructions to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <div id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title" class="load-hidden">
+          Hi, my name is <span class="text-color-main">	Srushti Arjun Desai</span>
+          <br />
+          I'm the Developer you need.
+        </h1>
+        <p class="hero-cta" class="load-hidden">
+         
+        </p>
+      </div>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">
+          About me
+        </h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image">
+              <img
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="./assets/profile.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info">
+              <p class="about-wrapper__info-text">
+               Hi, My name is Srushti Arjun Desai, I am a graduate student at the State 
+			   University Of New York, Binghamton pursuing  masters in Computer Science. 
+			   I have completed my bachelors(Bachelors Of Engineering) from Mumbai University, India. 
+               I am passionate about coding,web development and exploring new skills. 
+               </p>
+              <p class="about-wrapper__info-text">
+                My technical skills include: JavaScript, Java, Node.js, React.js.
+				 Apart from this,I am also familiar with C/C++.
+                   My hobbies include reading books,watching bollywood movies.
+              </p>
+              <span class="d-flex mt-3">
+                <a target="_blank" class="cta-btn cta-btn--resume" href="#!">
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">
+            Projects
+          </h2>
+		  
+		  
+		   <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Smart Brain</h3>
+                <div>
+                  <p class="mb-4">
+                  	Built an image recognition application whose frontend 
+					was built using React and used third party CLARIFAI API to fetch 
+					data for image recognition.Built the Backend using Node.js and 
+					developed end points such as register, sign-in, face detection and 
+					user profile.Used postgresql database to store the user data and stored 
+					the passwords in the form of hashes and used proper design techniques
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Srushti24/Smart-Brain">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/logo.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+
+		   <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">CPU Simulator</h3>
+                <div>
+                  <p class="mb-4">
+                    Implemented an assembly instruction pipeline simulator to mimic the 
+					behaviour of a speculative modern CPU using queues and buffers using C.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Srushti24/Apex-Pipeline-CS-520">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/cpu.jpg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Student Registration System</h3>
+                <div>
+                  <p class="mb-4">
+                   Built an application which uses PL/SQL and Java to support university registration tasks.
+	               Used PL/SQL to create,store procedures which could perform functionalities like displayin     
+				   the data of all relations, displaying direct and indirect data using recursion and storing and
+				   deleting the data in the database. Triggers were used to update the data in the database after a
+				   triggering action.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Srushti24/Student-Registration-System-Project-CS-532">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/database.jpg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+         		   <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Sensor Based Website</h3>
+                <div>
+                  <p class="mb-4">
+                   Built an application which uses MongoDB to store different types of sensors,sensor-types
+				   and sensor-data.The front end is built using Javascript which allows users to make different 
+				   types of HTTP request to update or get information from database using Express.js.Mustache
+				   templates are used to make changes in the front end.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Srushti24/SensorBased-App/tree/master/prj4-sol">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/images.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Sensor Based Music App</h3>
+                <div>
+                  <p class="mb-4">
+                    Built a Sensor-Based Music Player from scratch. The music player can
+					 work as a sensor based as well as a normal music player.If the user chooses
+					 the option to run it as a sensor-based music player, It can pause the song
+					 if the light intensity is below the threshold and play the song again
+					 once it crosses the theshold. Apart from that the song can be changed by shaking 
+					 phone in the x-direction(using accelerometer sensor). The song can also be stopped
+					 by bringing the hand or any object in front of proximity sensor.This app was build using
+					 Java.
+                  </p>
+                </div>
+               
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Srushti24/SensorBasedMusic">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/download.jpg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">
+          Contact
+        </h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">
+          </p>
+          <a
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:sdesai9@binghamton.edu"
+            >Contact through Email</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/srushti-desai-1141283a/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a href="https://github.com/Srushti24" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+   
+ 
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+  </body>
+</html>
